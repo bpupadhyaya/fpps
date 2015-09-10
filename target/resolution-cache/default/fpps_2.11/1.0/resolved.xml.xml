@@ -4,7 +4,7 @@
 		module="fpps_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150907165609"
+		publication="20150908195421"
 	>
 		<description>
 		fpps
@@ -27,12 +27,11 @@
 	</configurations>
 	<publications>
 		<artifact name="fpps_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="fpps_2.11" type="jar" ext="jar" conf="compile"/>
-		<artifact name="fpps_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		<artifact name="fpps_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="fpps_2.11" type="jar" ext="jar" conf="optional" e:classifier="download"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.4" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
