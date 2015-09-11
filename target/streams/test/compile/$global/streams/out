@@ -1,15 +1,56 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/FPPSSpec.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/TempTestCl.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/UnitSpec.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/java/com/equalinformation/fpps/test/java/TempTestCl.java)[0m
 [0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/FPPSSpec.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/TempTestCl.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/UnitSpec.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/java/com/equalinformation/fpps/test/java/TempTestCl.java)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/FPPSSpec.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/TempTestCl.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/UnitSpec.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/java/com/equalinformation/fpps/test/java/TempTestCl.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 4 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources and 1 Java source to /Users/bpupadhyaya/workspace/workspace-intellij/fpps/target/scala-2.11/test-classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 72995f6f, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes:/Users/bpupadhyaya/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/bpupadhyaya/workspace/workspace-intellij/fpps/target/scala-2.11/test-classes:/Users/bpupadhyaya/workspace/workspace-intellij/fpps/target/scala-2.11/classes:/Users/bpupadhyaya/scala/activator-dist-1.3.5/repository/org.scalatest/scalatest_2.11/2.2.4/bundles/scalatest_2.11.jar:/Users/bpupadhyaya/scala/activator-dist-1.3.5/repository/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar:/Users/bpupadhyaya/scala/activator-dist-1.3.5/repository/org.scala-lang.modules/scala-xml_2.11/1.0.2/bundles/scala-xml_2.11.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 1.778495986 s[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/var/folders/bm/9ffqr0z14g3c04fds7dn9jnm0000gn/T/sbt_f4b4431c/argfile[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.463945195 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 6.6144E-4 s[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/FPPSSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/FPPSSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/TempTestCl.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/TempTestCl.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/UnitSpec.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/TempTestCl.scala by /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/UnitSpec.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/FPPSSpec.scala by /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/UnitSpec.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/FPPSSpec.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/UnitSpec.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/TempTestCl.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/TempTestCl.scala, /Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/scala/com/equalinformation/fpps/test/scala/FPPSSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/java/com/equalinformation/fpps/test/java/TempTestCl.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/bpupadhyaya/workspace/workspace-intellij/fpps/src/test/java/com/equalinformation/fpps/test/java/TempTestCl.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
